@@ -1,0 +1,7 @@
+{
+  "name": "Azurance",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
