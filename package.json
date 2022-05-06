@@ -1,5 +1,5 @@
 {
-  "name": "Azurance",
+  "name": "azurance",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -10,9 +10,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run app:serve-ssr",
-    "serve:ssr": "node dist/app/server/main.js",
-    "build:ssr": "ng build && ng run app:server",
+    "devssr": "ng run app:serve-ssr",
+    "servessr": "node dist/app/server/main.js",
+    "buildssr": "ng build && ng run app:server",
     "prerender": "ng run app:prerender"
   },
   "private": true,
