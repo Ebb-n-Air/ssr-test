@@ -13,4 +13,4 @@ ENV PORT 4000
 
 EXPOSE 4000
 
-# ENTRYPOINT ["npm", "run", "servessr"]
+ENTRYPOINT ["npm", "run", "servessr"]
