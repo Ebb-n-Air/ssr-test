@@ -21,6 +21,11 @@ export function app(): express.Express {
 
   server.set('view engine', 'html');
   server.set('views', distFolder);
+  
+   server.get('/robots933456.txt',(req,res) => {
+    res.sendStatus(404);
+  })
+
 
   // Example Express Rest API endpoints
   // server.get('/api/**', (req, res) => { });
